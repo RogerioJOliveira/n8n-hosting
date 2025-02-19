@@ -10,8 +10,8 @@ x-shared: &shared
   image: docker.n8n.io/n8nio/n8n
   environment:
     - DB_TYPE=postgresdb
-    - DB_POSTGRESDB_HOST=postgres
-    - DB_POSTGRESDB_PORT=5532
+    - DB_POSTGRESDB_HOST=mck48g08s0cgcgswgcok08cs.147.93.33.205.sslip.io
+    - DB_POSTGRESDB_PORT=5499
     - DB_POSTGRESDB_DATABASE=${POSTGRES_DB}
     - DB_POSTGRESDB_USER=${POSTGRES_NON_ROOT_USER}
     - DB_POSTGRESDB_PASSWORD=${POSTGRES_NON_ROOT_PASSWORD}
